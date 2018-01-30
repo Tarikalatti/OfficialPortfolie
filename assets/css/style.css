@@ -1,0 +1,279 @@
+body {
+  font: 15px/1.5 "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #262626;
+  padding-bottom: 60px;
+
+
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.navbar {
+  background: #262626;
+  width: 100%;
+  height: 70px;
+  color: white;
+  padding-top: 10px;
+  border-bottom: 3px solid red;
+  margin-top: -10px;
+  position: fixed;
+  text-decoration: none;
+  display: inline;
+
+}
+
+.trans {
+  width: 500px;
+  height: 150px;
+  background: rgba(0,0,0,0.4);
+  padding: -60px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+
+
+.dark {
+  padding: 15px;
+  background: #002640;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*header*/
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 10px;
+}
+
+header ul {
+  margin: 10px;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+  margin: 10px;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header .highlight, header .current a {
+  color: red;
+  font-weight: bold;
+}
+
+header a:hover {
+  border: 1px solid red;
+}
+
+
+
+
+/*cases*/
+#cases {
+  min-height: 400px;
+  background: url(../images/John.jpg) no-repeat 0 -400px;
+  background-size: cover;
+  padding: 50px;
+  padding-top: -50px;
+  text-align: center;
+  color: white;
+}
+
+#cases h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#cases p {
+  font-size: 20px;
+}
+
+
+
+/*boxes*//*images*/
+
+.box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+
+
+/*sidebar-about*/
+.artabout {
+  color: white;
+}
+
+.artabout h1 {
+  color: white;
+  padding: 295px;
+  margin-top: -630px;
+  float: right;
+}
+
+.artabout p {
+  float: right;
+  text-align: center;
+  margin: 20px;
+  margin-top: -300px;
+  padding-left: 350px;
+}
+
+.sidebar h3 {
+  color: white;
+  padding: 350px;
+  margin-top: -530px;
+  float: right;
+}
+
+.sidebar p {
+  color: white;
+  float: right;
+  margin-top: -350px;
+  padding-left: 380px;
+  text-align: center;
+}
+
+.profilepic {
+  width: 350px;
+  height: 350px;
+  margin-right: 80px;
+}
+
+/*art*/
+
+.artportfolio {
+  color: white;
+  padding: 25px;
+}
+
+.artportfolio p {
+  color: #262626;
+  text-align: center;
+  padding: 60px;
+}
+
+.artcontact {
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+
+
+/*main*/
+
+#main .page-title {
+  text-align: center;
+}
+
+#main p {
+  text-align: center;
+}
+
+
+/*portfolio*/
+
+.sidepics {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.indesignpic {
+  width: 400px;
+  height: 550px;
+}
+
+.adobepic {
+  width: 400px;
+  height: 550px;
+}
+
+.indesign2pic {
+  width: 400px;
+  height: 550px;
+}
+
+
+
+
+/*rows in contact*/
+
+.row {
+  margin-top: 2px;
+}
+
+
+.row {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.mail {
+  width: 80px;
+  height: 80px;
+}
+
+.tlf {
+  width: 120px;
+  height: 80px;
+}
+
+.location {
+  width: 80px;
+  height: 80px;
+}
+
+.contactbutton{
+  color: white;
+  list-style: none;
+}
+
+
+/*footer*/
+
+.firstfooter {
+  padding: 2px;
+  margin-top: 900px;
+  margin-bottom: -60px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-top: 3px solid red;
+}
